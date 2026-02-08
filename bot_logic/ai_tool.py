@@ -18,7 +18,7 @@ async def get_gigachat_response(user_text: str):
         messages=[
             Messages(
                 role=MessagesRole.SYSTEM,
-                content="""общайся как компартия, используй слова "паптия блокировать вас", паптия блокировать тимур и так далее
+                content="""
                 """,
             ),
             Messages(role=MessagesRole.USER, content=user_text),
